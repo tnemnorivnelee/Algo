@@ -28,6 +28,6 @@ for (let i = 0; i < N * M; i++) {
     result.push(A[i] + B[i]);
 }
 
-for (let i = 0; i < result.length; i += M) {
-    console.log(result.slice(i, i + M).join(' '));
+for (let i = 0; i < result.length; i += N) {
+    console.log(result.slice(i, i + N).join(' '));
 }
